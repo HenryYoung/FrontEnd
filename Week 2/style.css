@@ -1,0 +1,101 @@
+/*
+Henry Young
+Week 2
+Front-End Web Frameworks
+*/
+
+header {
+	text-align: left;
+	font-size: 40px;
+	font-family: 'arial';
+	font-weight: bold;
+	margin: 54px 0 20px 50px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'arial';
+}
+
+h3 {
+	font-size: 22px;
+	font-family: 'arial';
+}
+
+h6 {
+	font-size: 16px;
+	margin-left: 2px;
+	margin-bottom: 6px;
+	font-family: 'arial';
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#add-employee{
+	float: left;
+	width: 30%;
+	margin: 0 0 0px 50px;
+	padding: 0 0 26px 15px;
+	background: #eee;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: solid 1px #bbb;
+	display: inline-block;
+}
+
+#input-box {
+	display: block;
+	width: 92%;
+	margin: 0px 0 22px 0;
+	padding-left: 10px;
+	font-size: 16px;
+	border: #bbb 1px solid;
+	height: 36px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#submit-button {
+	display: block;
+	width: auto;
+	padding: 5px 10px 5px 10px;
+	background: #1c80b3;
+	height: auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #fff;
+}
+
+#delete-button {
+	margin: 0 0 15px 0;
+	text-align: center;
+	border: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	background: #eee;
+	float: right;
+}
+
+.employee-name {
+	border: 1px solid #777;
+	padding: 2px 0 2px 0;
+	margin: 0 50px 0 30px;
+	width: 19%;
+	border: #bbb 1px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+
+
