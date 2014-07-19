@@ -14,17 +14,13 @@ angular.module("MyApp",[]).controller("DBController",function($scope, dataServic
     $scope.employeeProfile = dataService.getProfile();
       
     $scope.addEmployee = function() {
-         dataService.addEmployee($scope.pName);
-         dataService.addEmployee($scope.pStreet);
-         dataService.addEmployee($scope.city);
-         dataService.addEmployee($scope.pState);
-         dataService.addEmployee($scope.pZip);     
+         dataService.addEmployee($scope.pName,$scope.pStreet,$scope.pCity,$scope.pState,$scope.pZip);    
         
          $scope.pName = ' ';
          $scope.pStreet = ' ';
-         $scope.city = ' ';
-         $scope.state = ' ';
-         $scope.zipcode = ' ';
+         $scope.pCity = ' ';
+         $scope.pState = ' ';
+         $scope.pZip = ' ';
         
     }
     
@@ -32,3 +28,4 @@ angular.module("MyApp",[]).controller("DBController",function($scope, dataServic
         dataService.removeEmployee(deletedEmployee);
     }
 });
+    
