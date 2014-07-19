@@ -5,23 +5,23 @@
 */
 
 angular.module("MyApp",[]).controller("DBController",function($scope, dataService) {
-    $scope.employee;
-    $scope.street;
-    $scope.city;
-    $scope.state;
-    $scope.zipcode;
+    $scope.pName;
+    $scope.pStreet;
+    $scope.pCity;
+    $scope.pState;
+    $scope.pZip;
     
     $scope.employeeProfile = dataService.getProfile();
       
     $scope.addEmployee = function() {
-         dataService.addEmployee($scope.employee);
-         dataService.addEmployee($scope.street);
+         dataService.addEmployee($scope.pName);
+         dataService.addEmployee($scope.pStreet);
          dataService.addEmployee($scope.city);
-         dataService.addEmployee($scope.state);
-         dataService.addEmployee($scope.zipcode);     
+         dataService.addEmployee($scope.pState);
+         dataService.addEmployee($scope.pZip);     
         
-         $scope.employee = ' ';
-         $scope.street = ' ';
+         $scope.pName = ' ';
+         $scope.pStreet = ' ';
          $scope.city = ' ';
          $scope.state = ' ';
          $scope.zipcode = ' ';
