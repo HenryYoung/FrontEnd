@@ -1,0 +1,206 @@
+/*
+Henry Young
+Week 2
+Front-End Web Frameworks
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+header {
+	text-align: center;
+	font-size: 72px;
+	font-family: 'Lobster';
+	font-weight: bold;
+	margin: 80px 0 20px 0px;
+}
+
+body {
+	background: #ddd;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'verdana';
+}
+
+h3 {
+	font-size: 20px;
+	font-family: 'verdana';
+	color: #eee;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 17px;
+	font-family: 'verdana';
+	padding: 10px 0 10px 0px;
+	margin: 0 0 0 10px;
+	text-align: center;
+	color: #222;
+	font-weight: 500;
+	display: inline-block;
+}
+
+h5 {
+	font-size: 15px;
+	font-family: 'verdana';
+	margin: -12px 0 0 0px;
+	padding: 0px 10px 0px 36px;
+	text-align: left;
+	line-height: 40px;
+	font-weight: 500;
+	display: inline-block;
+}
+
+h6 {
+	font-size: 16px;
+	margin-left: 2px;
+	margin-bottom: 6px;
+	font-family: 'verdana';
+	color: #eee;
+	font-weight: 200;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.home-nav {
+	text-align: center;
+	margin: 26px 0 0 0;
+	background: #333;
+	line-height: 50px;
+	padding: 0px 0 0 0;
+}
+
+.home-nav-item {
+	margin: 20px 20px;
+	font-size: 22px;
+	font-family: 'trojan';
+	color: #eee;
+}
+
+#name-label,
+#details-label,
+#date-label,
+#ptps-label {
+	font-size: 16px;
+	font-family: 'verdana';
+	color: #000;
+	font-weight: 600;
+	text-align: left;
+	display: inline-block;
+	padding: 0px 0% 0px 25px;
+	margin: 0 0 10px 0;
+}
+
+#name-label-bkgd {
+	display: inline-block;
+	width: 100%;
+	background: rgba(0,0,0,.1);
+	margin: 0 0 10px 0;
+}
+
+#details-label-bkgd,
+#date-label-bkgd,
+#ptps-label-bkgd {
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+
+#add-project{
+	float: left;
+	width: 30%;
+	margin: 50px 0 50px 33%;
+	padding: 0 0 26px 15px;
+	background: rgba(0,0,0,.7);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: solid 3px #333;
+	display: inline-block;
+}
+
+#input-box {
+	display: block;
+	width: 92%;
+	margin: 0px 0 30px 0;
+	padding-left: 10px;
+	font-size: 16px;
+	border: #bbb 1px solid;
+	height: 36px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#submit-button {
+	display: block;
+	width: auto;
+	padding: 7px 10px 8px 10px;
+	background: #fd7f32;
+	height: auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #000;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+#delete-button {
+	margin: 14px 8px 2% 75%;
+	text-align: center;
+	font-family: 'verdana';
+	border: #555 1px solid;
+	font-size: 14px;
+	color: #fff;
+	background: #A80D0D;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 7px;
+	font-weight: 500;
+	display: inline-block;
+	padding: 4px 10px 4px 10px;
+}
+
+#edit-button {
+	margin: 14px 8px 2% 2%;
+	text-align: center;
+	font-family: 'verdana';
+	border: #31CC37 1px solid;
+	font-size: 14px;
+	color: #fff;
+	background: #3D740A;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 7px;
+	font-weight: 500;
+	display: inline-block;
+	padding: 4px 10px 4px 10px;
+}
+
+.project-name {
+	border: 1px solid #777;
+	padding: -10px 0 0 0;
+	margin: 0 30px 20px 20px;
+	width: 45%;
+	border: #999 2px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	background: rgba(355,355,355,.7);
+}
+
+
+
+

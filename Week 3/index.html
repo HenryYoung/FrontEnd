@@ -1,0 +1,42 @@
+<!--
+    Henry Young
+    Week 2
+    Front-End Web Frameworks
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Page Title</title>
+   
+        <link rel="stylesheet" href="style.css">
+        <script src="js/angular.js"></script>
+        <script src="js/angular-route.js"></script>
+        <script src="js/app.js"></script>
+        <!-- <script src="js/routeapp.js"></script> -->
+        <script src="js/dataService.js"></script>
+   
+</head>
+
+    
+    
+    <body ng-app="MyApp" ng-controller="MyAppController">
+        
+      <header>Past and Future Projects</header>  
+        
+        <div class="home-nav">
+                    <p>
+                        <a href="view1.html" class="home-nav-item">Add a Projects</a> | <a href="view2.html" class="home-nav-item">Open Projects</a> | <a href="view3.html" class="home-nav-item">Completed Projects</a>
+                    </p>
+                </div>
+               <div ng-view></div>
+               
+    </body>
+</html>
+
+
+
+
+
+
