@@ -12,6 +12,7 @@ header {
 	font-family: 'Lobster';
 	font-weight: bold;
 	margin: 80px 0 20px 0px;
+	color: #070A41;
 }
 
 body {
@@ -74,7 +75,7 @@ ul
 .home-nav {
 	text-align: center;
 	margin: 26px 0 0 0;
-	background: #333;
+	background: #B33606;
 	line-height: 50px;
 	padding: 0px 0 0 0;
 }
@@ -82,8 +83,33 @@ ul
 .home-nav-item {
 	margin: 20px 20px;
 	font-size: 22px;
-	font-family: 'trojan';
+	font-family: 'verdana';
 	color: #eee;
+	text-shadow: #000 2px 2px;
+}
+
+.welcome {
+	margin: 50px 24% 0 24%;
+	font-size: 26px;
+	font-family: 'times';
+	color: #080B52;
+	text-align: center;
+	line-height: 50px;
+	width: 52%;
+	font-style: italic;
+}
+
+.textarea {
+	height: 80px;
+	display: block;
+	width: 92%;
+	margin: 0px 0 30px 0;
+	padding-left: 10px;
+	font-size: 16px;
+	border: #bbb 1px solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 }
 
 #name-label,
@@ -115,15 +141,15 @@ ul
 	margin: 0 0 10px 0;
 }
 
-#add-project{
+#add-project {
 	float: left;
-	width: 30%;
-	margin: 50px 0 50px 33%;
-	padding: 0 0 26px 15px;
+	width: 36%;
+	margin: 20px 0 50px 30%;
+	padding: 2px 4px 16px 30px;
 	background: rgba(0,0,0,.7);
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 12px;
 	border: solid 3px #333;
 	display: inline-block;
 }
@@ -145,6 +171,7 @@ ul
 	display: block;
 	width: auto;
 	padding: 7px 10px 8px 10px;
+	margin-top: 40px;
 	background: #fd7f32;
 	height: auto;
 	-moz-border-radius: 5px;

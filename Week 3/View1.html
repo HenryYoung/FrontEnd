@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Page Title</title>
+<title>Add a Project</title>
    
         <link rel="stylesheet" href="style.css">
         <script src="js/angular.js"></script>
@@ -14,6 +14,7 @@
 </head>
 
 <body ng-app="MyApp" ng-controller="DBController">
+    <h4><a href="index.html">Home</a></h4>
     <div id="project-form">
             <form ng-submit="add()">
                <div id="add-project">
@@ -21,7 +22,7 @@
                 <h6>Project Name:</h6>
                 <input id="input-box" type="text" placeholder="Enter Project Name" ng-model="pName" />
                 <h6>Details:</h6>
-                <TEXTAREA id="input-box" placeholder="Enter Project Details" ng-model="pDetails" ROWS=3 COLS=30 ></TEXTAREA>
+                <TEXTAREA class="textarea" placeholder="Enter Project Details" ng-model="pDetails" ROWS=3 COLS=30 ></TEXTAREA>
                 <h6>Date to Complete:</h6>
                 <input id="input-box" type="text" placeholder="Enter Date to Complete" ng-model="pDate" />
                 <h6>Participants:</h6>

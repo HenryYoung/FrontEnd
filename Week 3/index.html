@@ -25,13 +25,24 @@
         
       <header>Past and Future Projects</header>  
         
-        <div class="home-nav">
-                    <p>
-                        <a href="view1.html" class="home-nav-item">Add a Projects</a> | <a href="view2.html" class="home-nav-item">Open Projects</a> | <a href="view3.html" class="home-nav-item">Completed Projects</a>
-                    </p>
-                </div>
-               <div ng-view></div>
-               
+            <div class="home-nav">
+                <p>
+                    <a href="view1.html" class="home-nav-item">Add a Project</a> |
+                    <a href="view2.html" class="home-nav-item">Open Projects</a> |
+                    <a href="view3.html" class="home-nav-item">Completed Projects</a>
+                </p>
+            </div>
+            
+            <div class="welcome">
+                <p>
+                    Welcome to your family-friendly, project-tracker application.
+                    <br>
+                    Click "Add a Project" to get started, "Open Projects" to view current projects
+                    or check out all the projects you and your family completed on the "Completed Projects" section
+                </p>
+            </div>
+        
+        <div ng-view></div> 
     </body>
 </html>
 
