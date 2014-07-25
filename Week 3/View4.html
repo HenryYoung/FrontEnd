@@ -20,20 +20,16 @@
 </head>
 
 <body ng-app="MyApp" ng-controller="DBController">
-    <h4><a href="index.html">Home</a></h4>
     <div id="project-form">
             <form ng-submit="add()">
                <div id="add-project">
                 <h3>Add a Project</h3>
-                <h6>Project Name:</h6>
-                <input id="input-box" type="text" placeholder="Enter Project Name" ng-model="pName" />
-                <h6>Details:</h6>
-                <TEXTAREA class="textarea" placeholder="Enter Project Details" ng-model="pDetails" ROWS=3 COLS=30 ></TEXTAREA>
-                <h6>Date to Complete:</h6>
-                <input id="input-box" type="text" placeholder="Enter Date to Complete" ng-model="pDate" />
+                <h6>Participants:</h6>
+                <h6>Participants:</h6>
+                <input id="input-box" type="text" placeholder="Enter Participants Involved" ng-model="pPtps" />
                 
                 <FORM ng-controller="MyAppController">
-                <input id="submit-button" type="button" value="Add Project" ng-click="addProject()" ONCLICK="document.location.href=('#/view2')">
+                
                 <div ng-view></div>
                 </FORM>
                 

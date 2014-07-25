@@ -1,6 +1,6 @@
 /*
 Henry Young
-Week 2
+Week 3
 Front-End Web Frameworks
 */
 
@@ -99,6 +99,16 @@ ul
 	font-style: italic;
 }
 
+.footertext {
+	margin: 20px 0px 40px 0px;
+	font-size: 22px;
+	font-family: 'times';
+	color: #555;
+	text-align: center;
+	line-height: 28px;
+	display:  none;
+}
+
 .textarea {
 	height: 80px;
 	display: block;
@@ -142,7 +152,6 @@ ul
 }
 
 #add-project {
-	float: left;
 	width: 36%;
 	margin: 20px 0 50px 30%;
 	padding: 2px 4px 16px 30px;

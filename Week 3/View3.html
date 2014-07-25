@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Current Projects</title>
+<title>Completed Projects</title>
    
         <link rel="stylesheet" href="style.css">
         <script src="js/angular.js"></script>
@@ -19,49 +19,41 @@
    
 </head>
 
-<body ng-app="MyApp" ng-controller="DBController">
+<body ng-app="MyApp" ng-controller="MyAppController">
+    <h4>{{ otherTest }}</h4>
     
     <div>
         <h4><a href="index.html">Home</a></h4>
-        <h4><a href="#/view3">update</a></h4>
-        
-        <form name="myform" editable-form shown="addProject.isNew" onhide="addProject.isNew=false">
+        <h4><a href="#/view2">Completed</a></h4>
         <ul>
            <li class="project-name" ng-repeat="item in myProject track by $index">
             
                <div id="name-label-bkgd">
                   <p id="name-label">Project Name:</p>
-                  <h4><a href="#" editable-text="item.name" ng-click="myform.$show()" e-placeholder="Name" id="inputbox">{{ item.name || 'empty'}}</a></h4>
+                  <h4>{{ item.name }}</h4>
                </div><br>
                
                <div id="details-label-bkgd">
                   <p id="details-label">Details:</p>
-                  <h5><a href="#" editable-text="item.details" ng-click="myform.$show()" e-placeholder="Details" class="textarea">{{ item.details || 'empty'}}</a></h5>
+                  <h5>{{ item.details }}</h5>
                </div><br>
                
                <div id="date-label-bkgd">
                   <p id="date-label">Completion Date:</p>
-                  <h5><a href="#" editable-date="item.date" ng-click="myform.$show()" e-placeholder="Date" id="inputbox">{{ item.date || 'empty'}}</a></h5>
+                  <h5>{{ item.date }}</h5>
                </div><br>
                
                <div id="ptps-label-bkgd">
                   <p id="ptps-label">Participants:</p>
-                  <h5><a href="#" editable-text="item.ptps" ng-click="myform.$show()" e-placeholder="Participants" id="inputbox">{{ item.ptps || 'empty'}}</a></h5>
+                  <h5>{{ item.ptps }}</h5>
                </div><br>
                
-                    
-                    <button type="submit" ng-show="myform.$visible">save</button>
-                    <button type="button" ng-show="myform.$visible" ng-click="myform.$cancel()">cancel</button>
-                  
-               
-               
-               <input id="edit-button" type="submit" value="Edit" onClick="document.location.href = ('view3.html')" />
+               <input id="edit-button" type="submit" value="Edit" <a href="#/view3" ></a>
                <button id="delete-button" ng-click="deleteProject(project)">Delete</button>
            </li>
            </li>
         </ul>
-        </form>
        </div>
-    
+    <div ng-view></div> 
 </body>
 </html>

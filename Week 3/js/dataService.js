@@ -1,6 +1,6 @@
 /*
   Henry Young
-  Week 2
+  Week 3
   Front-End Web Frameworks
 */
 
@@ -16,6 +16,7 @@ angular.module("MyApp").service("dataService",function() {
     
     this.addProject = function(pName,pDetails,pDate,pPtps) {
       var o = {};
+      isNew: true;
       o.name = pName;
       o.details = pDetails;
       o.date = pDate;
